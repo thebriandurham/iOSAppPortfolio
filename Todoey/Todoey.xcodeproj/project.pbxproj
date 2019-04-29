@@ -13,6 +13,7 @@
 		D370C18F226E8B7000F6A69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D370C18E226E8B7000F6A69A /* Assets.xcassets */; };
 		D370C192226E8B7000F6A69A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D370C190226E8B7000F6A69A /* LaunchScreen.storyboard */; };
 		D370C1A12270FEF100F6A69A /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D370C19F2270FEF100F6A69A /* DataModel.xcdatamodeld */; };
+		D370C1C422711C8000F6A69A /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D370C1C322711C8000F6A69A /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D370C191226E8B7000F6A69A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D370C193226E8B7000F6A69A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D370C1A02270FEF100F6A69A /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		D370C1C322711C8000F6A69A /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CategoryViewController.swift; path = Todoey/Controllers/CategoryViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		D370C19C2270E97100F6A69A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D370C1C322711C8000F6A69A /* CategoryViewController.swift */,
 				D370C189226E8B6F00F6A69A /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -170,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D370C1C422711C8000F6A69A /* CategoryViewController.swift in Sources */,
 				D370C18A226E8B6F00F6A69A /* TodoListViewController.swift in Sources */,
 				D370C1A12270FEF100F6A69A /* DataModel.xcdatamodeld in Sources */,
 				D370C188226E8B6F00F6A69A /* AppDelegate.swift in Sources */,
